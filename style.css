@@ -228,6 +228,8 @@ body{
   margin-left: 30px;
   padding: 5px;
   cursor: pointer;
+      font-size: 15px;
+  font-weight: 300;
  }
 
 
