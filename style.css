@@ -68,13 +68,7 @@ body{
     z-index: 1;
 }
 
-.Works-heading{
-    color: #fff;
-    opacity: 100%;
-    margin-top: 200px;
-    font-size: 120px;
-    font-weight: 300;
-}
+
 
 .Scanography-repeat{
     color: white;
@@ -213,7 +207,7 @@ body{
     opacity: 0;
     position: absolute;
  }
-
+ 
  .j{
   position: absolute;
   margin-top: -2400px;
@@ -228,7 +222,7 @@ body{
   margin-left: 30px;
   padding: 5px;
   cursor: pointer;
-      font-size: 15px;
+  font-size: 15px;
   font-weight: 300;
  }
 
@@ -299,7 +293,7 @@ body{
 
   .scanhead{
     color: white;
-    background-color: #000000;
+    background-color: #00000000;
     font-size: 120px;
     position: absolute;
     font-weight: 300;
@@ -320,7 +314,7 @@ body{
     margin-top: -50px;
     opacity: 0.5;
     cursor: pointer;
-    background-color: #000000;
+    background-color: #00000000;
   }
 
   .scanheadtwo{
@@ -333,7 +327,7 @@ body{
     margin-top: -50px;
     opacity: 1;
     cursor: pointer;
-    background-color: #000000;
+    background-color: #00000000;
   }
   .scanheadtwotwo{
     color: white;
@@ -356,6 +350,15 @@ body{
     z-index: 1;
   }
 
+  .paragraphfour4{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    font-weight: 300;
+    margin-left: 490px;
+    margin-top: 900px;
+    z-index: 1;
+  }
   
   .paragraphfourf{
     color: white;
@@ -418,8 +421,8 @@ body{
     font-size: 15px;
     position: absolute;
     font-weight: 300;
-    margin-left: 485px;
-    margin-right: 400px;
+    margin-left: 650px;
+    margin-right: 340px;
     margin-top: 0px;
   }
 
@@ -427,7 +430,7 @@ body{
   scale: 40%;
   position: absolute;
   margin-left: -500px;
-  margin-top: -770px;
+  margin-top: -890px;
   z-index: -3;
   opacity: 0.8;
 }
@@ -547,7 +550,7 @@ body{
 
 .gg{
   color:#fff;
-  background-color: #000000;
+  background-color: #00000000;
   cursor: pointer;
   font-size: 120px;
     font-weight: 300;
@@ -562,9 +565,1062 @@ body{
   margin-top: -50px;
   opacity: 0.5;
 }
+.imgimg8{
+  scale: 100%;
+  margin-top: -100px;
+  opacity: 0.5;
+  margin-left: -900px;
+  position: absolute;
+  z-index: -1;
+}
+
 
 .ink{
   color: #fff;
   text-decoration: none;
  
 }
+
+.workslink{
+  color: #fff;
+  text-decoration: none;
+ cursor: pointer;
+}
+.abslist{
+  color: #fff;
+  scale: 100%;
+  font-size: 50px;
+  font-weight: 300;
+  margin-top: 350px;
+  margin-left: 40px;
+}
+
+
+.movements{
+  font-size: 15px;
+  font-weight: 300;
+}
+
+
+.a1{
+  position: absolute;
+  scale: 30%;
+  margin-top: -800px;
+  margin-left: 90px;
+}
+
+.a2{
+  width: 30%;
+  position: absolute;
+  margin-top: -220px;
+  margin-left: 850px;
+}
+
+.a3{
+  position: absolute;
+  scale: 30%;
+  margin-top: -900px;
+  margin-left: 90px;
+}
+
+.a4{
+  width: 30%;
+  position: absolute;
+  margin-top: -300px;
+  margin-left: 850px;
+}
+
+.a5{
+  position: absolute;
+  scale: 30%;
+  margin-top: -900px;
+  margin-left: 10px;
+}
+
+.a6{
+  width: 30%;
+  position: absolute;
+  margin-top: -300px;
+  margin-left: 850px;
+}
+
+.a7{
+  position: absolute;
+  scale: 30%;
+  margin-top: -900px;
+  margin-left: 10px;
+}
+
+.a8{
+  width: 30%;
+  position: absolute;
+  margin-top: -300px;
+  margin-left: 850px;
+}
+
+.a9{
+  position: absolute;
+  scale: 30%;
+  margin-top: -900px;
+  margin-left: 10px;
+}
+
+.a10{
+  width: 30%;
+  position: absolute;
+  margin-top: -300px;
+  margin-left: 850px;
+}
+
+.head{
+  margin-left: 150px;
+  z-index: 1;
+  position: fixed;
+  background-color: #00000000;
+  border: #00000000;
+  color: #fff;
+  cursor: pointer;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.head1{
+  margin-top: -90px;
+  margin-left: 150px;
+  z-index: 1;
+  position: fixed;
+  background-color: #00000000;
+  border: #00000000;
+  color: #fff;
+  cursor: pointer;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+
+
+.head2{
+  margin-top: -90px;
+  margin-left: 150px;
+  z-index: 1;
+  position: fixed;
+  background-color: #00000000;
+  border: #00000000;
+  color: #fff;
+  cursor: pointer;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.head3{
+  margin-top: -90px;
+  margin-left: 150px;
+  z-index: 1;
+  position: fixed;
+  background-color: #00000000;
+  border: #00000000;
+  color: #fff;
+  cursor: pointer;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.head4{
+  margin-top: -90px;
+  margin-left: 150px;
+  z-index: 1;
+  position: fixed;
+  background-color: #00000000;
+  border: #00000000;
+  color: #fff;
+  cursor: pointer;
+  font-size: 50px;
+  font-weight: 300;
+}
+.myDIVstretch{
+  font-size: 15px;
+  font-weight: 300;
+}
+
+
+.sub{
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 100px;
+  z-index: 1;
+  position: absolute;
+  margin-left: 160px;
+}
+
+.sub2{
+  font-size: 15px;
+  font-weight: 300;
+  z-index: 1;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 160px;
+}
+
+.sub3{
+  font-size: 15px;
+  font-weight: 300;
+  z-index: 1;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 160px;
+}
+.sub4{
+  font-size: 15px;
+  font-weight: 300;
+  z-index: 1;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 160px;
+}
+
+.sub5{
+  font-size: 15px;
+  font-weight: 300;
+  z-index: 1;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 160px;
+}
+
+.sub55{
+  font-size: 15px;
+  font-weight: 300;
+  z-index: 1;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 160px;
+  cursor: pointer;
+}
+
+
+
+.is{
+  font-size: 15px;
+  font-weight: 300;
+  z-index: 1;
+  position: absolute;
+  margin-top: 690px;
+  margin-left: 160px;
+ color: #fff;
+
+}
+
+
+.sub6{
+  font-size: 15px;
+  font-weight: 300;
+  z-index: 1;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 160px;
+}
+
+.sub7{
+  font-size: 15px;
+  font-weight: 300;
+  z-index: 1;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 160px;
+}
+.sub8{
+  font-size: 15px;
+  font-weight: 300;
+  z-index: 1;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 160px;
+}
+
+
+.hi{
+  opacity: 1;
+  scale: 30%;
+  position: absolute;
+  z-index: 1;
+  margin-left: -500px;
+ 
+}
+
+.test1{
+  z-index: 1;
+  position: absolute;
+  background-color: #00000000;
+  border: #00000000;
+  color: #fff;
+  cursor: pointer;
+  font-size: 50px;
+  font-weight: 300;
+  opacity: 1;
+  margin-top: 300px;
+}
+
+.test2{
+  z-index: 1;
+  position: absolute;
+  background-color: #00000000;
+  border: #00000000;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 300;
+  opacity: 1;
+  margin-top: -2400px;
+  margin-left: 220px;
+}
+
+#test1 {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: rgba(255, 255, 0, 0);
+}
+#animate {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  scale: 30%;
+  margin-top: -2750px;
+  opacity: 0;
+  margin-left: 530px;
+}
+
+
+.test3{
+  z-index: 1;
+  position: absolute;
+  background-color: #00000000;
+  border: #00000000;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 300;
+  opacity: 1;
+  margin-top: -2250px;
+  margin-left: 220px;
+}
+
+
+
+#test4 {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: rgba(255, 255, 0, 0);
+}
+
+#animate2 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  scale: 30%;
+  margin-top: -2750px;
+  opacity: 0;
+  margin-left: 530px;
+}
+
+
+
+
+.test5{
+  z-index: 1;
+  position: absolute;
+  background-color: #00000000;
+  border: #00000000;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 300;
+  opacity: 1;
+  margin-top: -2250px;
+  margin-left: 220px;
+}
+
+
+
+#test6 {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: rgba(255, 255, 0, 0);
+}
+
+#animate3 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  scale: 30%;
+  margin-top: -2500px;
+  opacity: 1;
+  margin-left: 530px;
+ 
+  
+}
+
+
+.bi1{
+  position: absolute;
+  background-color: #00000000;
+  border: #00000000;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 300;
+  opacity: 1;
+  margin-top: -2170px;
+  margin-left: 220px;
+}
+
+.bi2{
+  position: absolute;
+  background-color: #00000000;
+  border: #00000000;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 300;
+  opacity: 1;
+  margin-top: -3925px;
+  margin-left: 275px;
+}
+
+.myDIVrel{
+  scale: 20%;
+  margin-top: -2800px;
+  position: absolute;
+  margin-left: -50px;
+  opacity: 1;
+}
+
+.relbutton{
+  border: #00000000;
+  background-color: #00000000;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 300;
+  position: absolute;
+  margin-top: -2160px;
+  margin-left: 220px;
+}
+
+.myDIVrel3{
+  scale: 20%;
+  margin-top: -2800px;
+  position: absolute;
+  margin-left: -160px;
+  opacity: 1;
+}
+
+.relbutton3{
+  border: #00000000;
+  background-color: #00000000;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 300;
+  position: absolute;
+  margin-top: -2160px;
+  margin-left: 326px;
+}
+
+.myDIVrel4{
+  scale: 20%;
+  margin-top: -2800px;
+  position: absolute;
+  margin-left: -290px;
+  opacity: 1;
+}
+
+.relbutton4{
+  border: #00000000;
+  background-color: #00000000;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 300;
+  position: absolute;
+  margin-top: -2160px;
+  margin-left: 272px;
+}
+.myDIVrel1{
+  scale: 20%;
+  margin-top: -2800px;
+  position: absolute;
+  margin-left: 70px;
+  opacity: 1;
+  
+}
+.relbutton1{
+  border: #00000000;
+  background-color: #00000000;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 300;
+  position: absolute;
+  margin-top: -2160px;
+  margin-left: 295px;
+}
+
+
+.myDIVrel2{
+  scale: 30%;
+  margin-top: -2540px;
+  position: absolute;
+  margin-left: 50px;
+  opacity: 0.5;
+  
+}
+.relbutton2{
+  border: #00000000;
+  background-color: #00000000;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 300;
+  position: absolute;
+  margin-top: -1590px;
+  margin-left: 285px;
+}
+
+.photoR{
+    color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 300;
+  position: absolute;
+  margin-top: -123px;
+  margin-left: 25px;
+}
+
+
+.demomove{
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.movements
+{
+  cursor: pointer;
+}
+
+
+
+.myDIVrel6{
+  scale: 30%;
+  margin-top: -1965px;
+  position: absolute;
+  margin-left: 50px;
+  opacity: 1;
+  
+}
+.relbutton6{
+  border: #00000000;
+  background-color: #00000000;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 300;
+  position: absolute;
+  margin-top: -1005px;
+  margin-left: 223px;
+}
+
+
+.abs1{
+  color: #fff;
+  font-size: 50px;
+  font-weight: 300;
+  margin-top: -700px;
+}
+
+
+.demoworks{
+  margin-top: 1200px;
+  margin-left: 58px;
+}
+
+.uno{
+  scale: 35%;
+  margin-top: -515px;
+  margin-left: -400px;
+  position: absolute;
+  z-index: 0;
+}
+
+.uno1{
+  scale: 35%;
+  margin-top: -515px;
+  margin-left: 50px;
+  position: absolute;
+}
+
+.uno2{
+  scale: 35%;
+  margin-top: -515px;
+  margin-left: 520px;
+  position: absolute;
+}
+
+.zz{
+  position:absolute;
+  z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+/*photogrid*/
+
+.Works-heading{
+  color: #fff;
+  opacity: 100%;
+  margin-top: -300px;
+  font-size: 120px;
+  font-weight: 300;
+  position: absolute;
+  margin-left: 40px;
+}
+
+
+.hh1{
+  color:#fff;
+  font-size: 15px;
+  font-weight: 300;
+  position: absolute;
+  margin-left: 400px;
+  margin-top: -205px;
+}
+
+.hh11{
+  color:#fff;
+  font-size: 15px;
+  font-weight: 300;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: -420px;
+}
+
+.hh111 {
+  color:#fff;
+  font-size: 15px;
+  font-weight: 300;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  animation-name:hh111;
+  animation-duration: 8s;
+  animation-iteration-count: calc(10);
+  animation-delay: 2s;
+  top: 100px;
+  margin-left: 40px;
+}
+
+@keyframes hh111 {
+  from { top: 100px; opacity: 1;}
+  to {top: 400px; opacity: 0;}
+}
+
+.hh1111 {
+  color:#fff;
+  font-size: 15px;
+  font-weight: 300;
+  width: 100px;
+margin-left: 350px;
+  position: absolute;
+  animation-name:hh1111;
+  animation-duration: 8s;
+  animation-iteration-count: calc(5);
+  animation-delay: 7s;
+  top: 200px;
+}
+
+@keyframes hh1111 {
+  from {top: 200px; opacity: 1;}
+  to {top: 400px; opacity: 0;}
+}
+
+.hh111111{
+  color:#fff;
+  font-size: 15px;
+  font-weight: 300;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  animation-name:hh111111;
+  animation-duration: 8s;
+  animation-iteration-count: calc(15);
+  animation-delay: 2s;
+  top: 210px;
+  margin-left: 40px;
+}
+
+@keyframes hh111111 {
+  from {top: 210px; opacity: 1;}
+  to {top: 400px; opacity: 0;}
+}
+
+.hh11111{
+  color:#fff;
+  font-size: 15px;
+  font-weight: 300;
+  position: absolute;
+  margin-top: -220px;
+  margin-left: 549px;
+  cursor: pointer;
+}
+
+.hb{
+  color:#fff;
+  font-size: 15px;
+  font-weight: 300;
+  position: absolute;
+  margin-top: -225px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 25px;
+  margin-left: 6px;
+  margin-top: 500px;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 25px;
+  text-decoration: none;
+  color: #fff;
+  margin-top: -80px;
+
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.twotwo{
+ 
+ opacity: 0.5;
+ 
+}
+
+.twotwo:hover{
+opacity: 1;
+}
+
+
+.threethree{
+  
+  opacity: 0.5;
+  
+ }
+ 
+ .threethree:hover{
+ opacity: 1;
+ }
+ 
+ .fourfour{
+ 
+  opacity: 0.5;
+ 
+ }
+ 
+ .fourfour:hover{
+ opacity: 1;
+
+ }
+
+ .fivefive{
+  
+  opacity: 0.5;
+ 
+ }
+ 
+ .fivefive:hover{
+ opacity: 1;
+ }
+
+ .oneone{
+  
+  opacity: 0.5;
+  
+ }
+ 
+ .oneone:hover{
+ opacity: 1;
+ }
+
+ .tenten{
+  
+  opacity: 0.5;
+  
+ }
+ 
+ .tenten:hover{
+ opacity: 1;
+ }
+
+ .eighteight{
+  
+  opacity: 0.5;
+
+ }
+ 
+ .eighteight:hover{
+ opacity: 1;
+ }
+
+ .ninenine{
+ 
+  opacity: 0.5;
+
+ }
+ 
+ .ninenine:hover{
+ opacity: 1;
+ }
+
+ .eleveneleven{
+ 
+  opacity: 0.5;
+
+ }
+ 
+ .eleveneleven:hover{
+ opacity: 1;
+ }
+
+ .twelvetwelve{
+ 
+  opacity: 0.5;
+ 
+ }
+ 
+ .twelvetwelve:hover{
+ opacity: 1;
+ }
+
+  .twelvetwelve{
+ 
+  opacity: 0.5;
+
+ }
+ 
+ .twelvetwelve:hover{
+ opacity: 1;
+ }
+ .thirteen{
+  cursor: pointer;
+ }
+ .thirteenthirteen{
+ 
+  opacity: 0.5;
+
+ }
+ 
+ .thirteenthirteen:hover{
+ opacity: 1;
+ }
+
+ .fourteenfourteen{
+  opacity: 0.5;
+ 
+ }
+ 
+ .fourteenfourteen:hover{
+ opacity: 1;
+ }
+
+ .fifteenfifteen{
+  opacity: 0.5;
+ 
+ }
+ 
+ .fifteenfifteen:hover{
+ opacity: 1;
+ }
+
+ .sixteen{
+  opacity: 0.5;
+ 
+ }
+ 
+ .sixteen:hover{
+ opacity: 1;
+ }
+
+ .seventeenseventeen{
+  opacity: 0.5;
+ 
+ }
+ 
+ .seventeenseventeen:hover{
+ opacity: 1;
+ }
+
+ .sixsix{
+  opacity: 0.5;
+ 
+ }
+ 
+ .sixsix:hover{
+ opacity: 1;
+ }
+
+ .oo{
+  position: fixed;
+  scale: 15%;
+  opacity: 0.3;
+  margin-top: -1200px;
+  margin-left: -630px;
+  z-index: 0;
+ }
+
+ .ooo{
+  position: absolute;
+  scale: 15%;
+  opacity: 1;
+  margin-top: -1200px;
+  margin-left: -630px;
+  z-index: 1;
+ }
+
+ 
+ .oo1{
+  position: fixed;
+  scale: 15%;
+  opacity: 0.3;
+  margin-top: -1200px;
+  margin-left: 700px;
+  z-index: 0;
+ }
+
+ .ooo1{
+  position: absolute;
+  scale: 15%;
+  opacity: 1;
+  margin-top: -1200px;
+  margin-left: 700px;
+  z-index: 1;
+ }
+
+ 
+ .nineteennineteen{
+  opacity: 0.5;
+ 
+ }
+ 
+ .nineteennineteen:hover{
+ opacity: 1;
+ }
+
+ .eighteen{
+  opacity: 0.5;
+ 
+ }
+ 
+ .eighteen:hover{
+ opacity: 1;
+ }
+
+
+ .twenty{
+  opacity: 0.5;
+ 
+ }
+ 
+ .twenty:hover{
+ opacity: 1;
+ }
+
+ .sevenseven{
+  opacity: 0.5;
+ 
+ }
+ 
+ .sevenseven:hover{
+ opacity: 1;
+ }
+
+ .twentyone{
+  opacity: 0.5;
+ 
+ }
+ 
+ .twentyone:hover{
+ opacity: 1;
+ }
+
+ .twentytwo{
+  opacity: 0.5;
+ 
+ }
+ 
+ .twentytwo:hover{
+ opacity: 1;
+ }
+
+
+ .imgimg88{
+  scale: 100%;
+  margin-top: -100px;
+  opacity: 0.5;
+  margin-left: 50px;
+  position: absolute;
+  z-index: -1;
+ }

@@ -20,18 +20,358 @@
     </section>
     <img src="pics/gg.png" class="backimg">
     <h3 class="absparag-one">Moving the object while it scans allows the abstraction of the object. <br> <br> There are a few things you can do, but most important is to experiment to see what effects you like.</h3>
+    
+    
+    
     <section class="grid-one">
-        <img src="pics/dragnew.png" class="dragone">
+        <img src="pics/header.png" class="dragone"> 
         <img src="pics/drag3.jpg" class="dragthree">
     </section>
     <section class="aye">
         <h3> <div class="divsix"> A </div><br> <br> <div class="divseven"> B </div><br> <br> S <br> <br> T <br> <br> R <br> <br> A <br> <br> C <br> <br> <div class="diveight"> T </div></h3>
+   
+     
+           
+    
+    <p id="demophotoR"> <p class="photoR" onclick="myFunctionphotoR()">R</p></p>
+    
+    <script>
+    function myFunctionphotoR() {
+      document.getElementById("demophotoR").innerHTML += "T ";
+    }
+    </script>
+   
     </section>
-   <section class="imagesone">
-     <img src="pics/appear.jpg" class="appearone">
-   </section>
+ 
+
+<section class="abslist">
+<h3 class="movements"  onclick="myFunctionmove()"> Types of movements:</h3> 
 
   
+        
+
+<p id="demomove" class="demomove"></p>
+
+<script>
+function myFunctionmove() {
+  document.getElementById("demomove").innerHTML += "movements ";
+}
+</script>
+
+
+
+
+
+
+<h2 class="movelist"> 
+    <br><br>
+
+
+    <button class="head" onclick="myFunctionhead()">Stretch</button>
+  
+    <h2 class="sub"> <p id="sub1"> </p>
+        <script>
+            function myFunctionhead() {
+              document.getElementById("sub1").innerHTML = "By dragging the object vertically as it scans, you can stretch the object.";
+            }
+            </script>
+        </h2>
+
+        <img src="pics/stretch.jpg" class="a1">
+   
+        <img src="pics/stretch2.jpg" class="a2">
+ 
+        
+
+
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <button class="head1" onclick="myFunctionhead1()">Warp</button>
+    <h2 class="sub2"> <p id="sub3"> </p>
+
+        <script>
+            function myFunctionhead1() {
+              document.getElementById("sub3").innerHTML = "By dragging the object horizontally as it scans, you can warp the object.";
+            }
+            </script>
+        </h2>
+
+        <img src="pics/warp.jpg" class="a3">
+
+        <img src="pics/warp2.jpg" class="a4">
+        <br><br><br><br><br><br><br><br><br>
+
+        
+    <button class="head2" onclick="myFunctionhead2()">Relocate</button>
+    <h2 class="sub3"> <p id="sub4"> </p>
+        <script>
+            function myFunctionhead2() {
+              document.getElementById("sub4").innerHTML = "By picking up and placing the object in a new position as it scans, you can relocate the object.";
+            }
+            </script>
+        </h2>
+        <img src="pics/relocate.jpg" class="a5">
+        <img src="pics/relocate3.jpg" class="a6">
+        <br><br><br><br>
+
+        <br><br><br><br><br><br>
+
+
+
+    <button class="head3" onclick="myFunctionhead3()">Textures</button>
+    <h2 class="sub5"> <p id="sub6"> </p>
+        <script>
+            function myFunctionhead3() {
+              document.getElementById("sub6").innerHTML = "By scanning see-through objects, such as saran-wrap, platic, or glass, you can add texture.";
+            }
+            </script>
+        </h2>
+        <img src="pics/texture.jpg" class="a7">
+        <img src="pics/texture1.jpg" class="a8">
+        <br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+    <button class="head4" onclick="myFunctionhead4()">Layers</button>
+    <h2 class="sub7"> <p id="sub8"> </p>
+        <script>
+            function myFunctionhead4() {
+              document.getElementById("sub8").innerHTML = "By placing objects ontop of eachother, you can add layers to the scan.";
+            }
+            </script>
+            </h2>
+        <h2 class="sub"></h2>
+
+      <img src="pics/layer1.png" class="a9">
+
+
+        <img src="pics/layertexture.jpg" class="a10">
+        <br><br><br><br>
+</h2>
+
 </section>
+
+   
+    <button class="test2" onclick="myFunctionHi()">dragging the object</button>
+    
+    <div id ="test1">
+      <div id ="animate"> <img src="pics/Scan_20230201 (19-3).png"></div>
+
+
+    </div>
+    
+    <script>
+    function myFunctionHi() {
+      let id = null;
+      const elem = document.getElementById("animate");   
+      let pos = 0;
+      clearInterval(id);
+      id = setInterval(frame, 10);
+      function frame() {
+        if (pos == 370) {
+          clearInterval(id);
+          elem.style.opacity = 0;
+        } else {
+          pos++; 
+          elem.style.top = pos + "px"; 
+          elem.style.left = pos + "-50px"; 
+          elem.style.opacity = 1;
+        }
+      }
+    }
+    </script>
+
+
+
+
+<button class="test3" onclick="myFunctionHi2()">dragging the object</button>
+    
+<div id ="test4">
+  <div id ="animate2"> <img src="pics/Scan_20230201 (19-3).png"></div>
+
+</div>
+
+<script>
+function myFunctionHi2() {
+  let id = null;
+  const elem = document.getElementById("animate2");   
+  let pos = 90;
+  clearInterval(id);
+  id = setInterval(frame, 10);
+  function frame() {
+    if (pos == 490) {
+      clearInterval(id);
+      elem.style.opacity = 0;
+    } else {
+      pos++; 
+      elem.style.top = pos + "px"; 
+      elem.style.left = pos + "px"; 
+      elem.style.opacity = 1;
+    }
+  }
+}
+</script>
+
+<br><br>
+
+
+<section >
+    <button class="relbutton" onclick="myFunctionrel()"><div id="relbutton">picking</button></div>
+  
+    <div id="myDIVrel">
+    <img src="pics/Scan_20230201 (19-3).png" class="myDIVrel">
+    </div>
+    
+    <script>
+    function myFunctionrel() {
+      var x = document.getElementById("myDIVrel");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
+</section>
+
+<section >
+    <button class="relbutton4" onclick="myFunctionrel4()"><div id="relbutton4"> up</button></div>
+  
+    <div id="myDIVrel4">
+    <img src="pics/Scan_20230201 (19-3).png" class="myDIVrel4">
+    </div>
+    
+    <script>
+    function myFunctionrel4() {
+      var x = document.getElementById("myDIVrel4");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
+</section>
+
+
+
+<section >
+    <button class="relbutton1" onclick="myFunctionrel1()"><div id="relbutton1"> and</button></div>
+  
+    <div id="myDIVrel1">
+    <img src="pics/Scan_20230201 (19-3).png" class="myDIVrel1">
+    </div>
+    
+    <script>
+    function myFunctionrel1() {
+      var x = document.getElementById("myDIVrel1");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    </script>
+</section>
+
+<section >
+    <button class="relbutton3" onclick="myFunctionrel3()"><div id="relbutton3"> placing</button></div>
+  
+    <div id="myDIVrel3">
+    <img src="pics/Scan_20230201 (19-3).png" class="myDIVrel3">
+    </div>
+    
+    <script>
+    function myFunctionrel3() {
+      var x = document.getElementById("myDIVrel3");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    </script>
+</section>
+
+<section >
+    <button class="relbutton2" onclick="myFunctionrel2()"><div id="relbutton2">see-through</button></div>
+  
+    <div id="myDIVrel2">
+    <img src="pics/texture0.png" class="myDIVrel2">
+    </div>
+    
+    <script>
+    function myFunctionrel2() {
+      var x = document.getElementById("myDIVrel2");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    </script>
+
+</section>
+
+
+
+
+<section >
+    <button class="relbutton6" onclick="myFunctionrel6()"><div id="relbutton6">placing objects</button></div>
+  
+    <div id="myDIVrel6">
+    <img src="pics/Scan_20230201 (21).png" class="myDIVrel6">
+    </div>
+    
+    <script>
+    function myFunctionrel6() {
+      var x = document.getElementById("myDIVrel6");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    </script>
+
+</section>
+
+
+  <section class="abs1">
+        <h3 class="zz">Combining different movements: </h3>
+        <p id="sub55" class="sub55" onclick="myFunctionsub55()">Through combining these different movements togehter, you can create some really intersting and abstract works.</p>
+    
+        <script>
+        function myFunctionsub55() {
+          document.getElementById("sub55").innerHTML += " <br> Through combining these different movements togehter, you can create some really intersting and abstract works. ";
+        }
+        </script>
+
+        <img class="uno" src="pics/combine7.jpg"> <img class="uno1" src="pics/combine9.jpg"> <img class="uno2" src="pics/combine11.jpg">
+  </section>
+
+
+
+<h3 class="is">Layer + Warp + Relocate &nbsp;  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+     Relocate + Stretch + Warp &nbsp; &nbsp;   &nbsp;  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+     &nbsp; &nbsp; 
+     Layer + Texture + Stretch + Relocate</h3>
+
+  <h3 class="paragraphfour4"> 
+    <a class="workslink" href="works.html">For more inspiration, look at the   &nbsp; &nbsp;w &nbsp;o &nbsp;r &nbsp;k &nbsp;s &nbsp; &nbsp; of other artists. </a> 
+    <img src="pics/999.png" class="imgimg8">
+    <h3 class="paragraphfourf"> 
+    <p id="demoworks" class="demoworks" onclick="myFunctionworks()"> w&nbsp&nbsp;o&nbsp;&nbsp;r&nbsp;&nbsp;k&nbsp;&nbsp;s</p>
+
+
+    
+    <script>
+    function myFunctionworks() {
+      document.getElementById("demoworks").innerHTML += " &nbsp;&nbsp;w&nbsp;&nbsp;o&nbsp;&nbsp;r&nbsp;&nbsp;k&nbsp;&nbsp;s ";
+    }
+    </script>
+    </h3>
+</section>
+ 
 </body>
 </html>
